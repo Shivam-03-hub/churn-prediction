@@ -1,0 +1,19 @@
+# Ignore raw data (too large for GitHub)
+data/raw/
+data/processed/
+
+# Ignore model binaries (too large — regenerate by running notebooks)
+models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
